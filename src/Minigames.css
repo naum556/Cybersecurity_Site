@@ -1,0 +1,111 @@
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.card-container h1{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.card{
+    border: 2px solid rgb(194, 194, 194);
+    height: 35vh;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.card > p, .icon{
+    margin-left: 2rem;
+}
+
+.card > h3{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.card > p{
+    font-size: 1.1rem;
+    color: rgb(65, 65, 65);
+}
+
+.icon{
+    width: 80px;
+    height: 25%;
+    background-color: rgb(74, 74, 246);
+    margin-top: 2rem;
+    border-radius: 1rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 900px){
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-container h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px){
+    .icon{
+        width: 80px;
+    }
+}
+
+
+.game2 .icon{
+    background-color: orange;
+}
+
+.game3 .icon{
+    background-color: rgb(23, 210, 23);
+}
+
+.game4 .icon{
+    background-color: pink;
+}
+
+.game5 .icon{
+    background-color: rgb(143, 30, 143);
+}
+
+.game6 .icon{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.material-symbols-outlined {
+    color: white;
+    font-size: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
