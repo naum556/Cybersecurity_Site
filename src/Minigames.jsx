@@ -14,7 +14,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Matching Game</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
@@ -26,7 +26,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Spot The Phishing</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
@@ -38,7 +38,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Safe Links</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
@@ -50,7 +50,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Avoid The Viruses</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
@@ -62,7 +62,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Node Connector</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
@@ -74,7 +74,7 @@ function Minigames(){
                         </span>
                     </div>
                     <h3>Brute Force</h3>
-                    <p>Paragraph</p>
+                    
                 </div>
             </Link>
 
